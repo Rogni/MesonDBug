@@ -1,0 +1,13 @@
+{
+    "type": "test_struct",
+    "fields": [
+        {
+            "type": "uint8",
+            "name": "id"
+        },
+        {
+            "type": "string",
+            "name": "name"
+        }
+    ]
+}
