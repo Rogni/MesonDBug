@@ -24,7 +24,6 @@ include_dir = include_directories('.')
 
 if lang == 'vala'
     add_project_arguments('--profile=posix', language:'vala')
-    add_languages('c')
 endif
 
 executable('program', 
