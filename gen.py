@@ -5,12 +5,13 @@ import json
 import time
 from cpp.cpp import generator as cpp_gen
 from d.d import generator as d_gen
+from vala.vala import generator as vala_get
 
 GENERATORS = {
     'd': d_gen,
-    'cpp': cpp_gen
+    'cpp': cpp_gen,
+    'vala': vala_get
 }
-
 
 def generate_source(input_path, output_path, generator):
     time.sleep(1)
