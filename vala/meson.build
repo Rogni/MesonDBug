@@ -1,5 +1,4 @@
 add_languages('c','vala')
-# add_global_arguments('--profile=posix', language:'vala')
 
 gen = generator(python,
                 output  : '@BASENAME@.vala',
