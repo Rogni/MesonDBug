@@ -13,6 +13,7 @@ GENERATORS = {
     'vala': vala_get
 }
 
+
 def generate_source(input_path, output_path, generator):
     time.sleep(1)
     with open(input_path, 'r') as input_file:
